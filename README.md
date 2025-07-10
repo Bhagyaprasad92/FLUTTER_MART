@@ -5,7 +5,6 @@
 <p align="center">
   A sleek, animated e-commerce Flutter app with cart management, elegant UI, and smooth transitions.
   <br/>
-  <a href="https://github.com/Bhagyaprasad92/fluttermart">GitHub Repo</a> • 
   <a href="https://www.youtube.com/shorts/_hhhTlW0mss">Live Demo</a>
 </p>
 
