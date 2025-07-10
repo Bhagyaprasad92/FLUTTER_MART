@@ -1,41 +1,60 @@
-🛒 FlutterMart – Modern Flutter Shopping App
-FlutterMart is a beautifully designed e-commerce shopping app built using Flutter. It features animated product interactions, an elegant cart system, dark-themed UI, and responsive design, offering a seamless user experience similar to top shopping apps like Flipkart and Amazon.
+<!-- FlutterMart - README -->
 
-🔥 Features
-📱 Clean, dark UI inspired by modern shopping platforms
+<h1 align="center">🛒 FlutterMart</h1>
 
-🛍️ Dynamic product detail pages with add-to-cart functionality
+<p align="center">
+  A sleek, animated e-commerce Flutter app with cart management, elegant UI, and smooth transitions.
+  <br/>
+  <a href="https://github.com/Bhagyaprasad92/fluttermart">GitHub Repo</a> • 
+  <a href="https://youtu.be/YOUR_VIDEO_ID">Live Demo</a>
+</p>
 
-🧾 Animated cart with quantity adjustments and total price calculation
+---
 
-💾 State management using Provider or Riverpod
+## 📱 App Preview
 
-💡 Reusable components for products, cards, and UI tiles
+<p align="center">
+  <img src="assets/demo.gif" alt="FlutterMart demo" width="600"/>
+</p>
 
-🧭 Custom navigation, transitions, and splash screen
+---
 
-🖼️ Uses local asset images (can be extended to API)
+## ✨ Features
 
-🚀 Technologies Used
-Flutter & Dart
+- 🖼️ Beautiful dark-themed UI with custom animations
+- 🛍️ Add to Cart with real-time quantity updates
+- 🎯 State management using Provider
+- 🎨 Custom splash screen, login, profile, product detail, and cart pages
+- 🧠 Clean, scalable architecture
 
-State Management: Provider / Riverpod
+---
 
-Animations: Custom animations, Hero transitions
+## 🚀 Tech Stack
 
-Assets: Local assets for product images and icons
+| Technology | Description |
+|------------|-------------|
+| 🐦 Flutter | Frontend Framework |
+| 📦 Provider | State Management |
+| 🔤 Poppins | Custom Font |
+| 🎨 Lottie / SVG | Animations & Illustrations |
+| 🧪 Firebase (optional) | Auth or Hosting |
+| 💻 Dart | Main Language |
 
-Firebase (optional) for future integration of Auth & Firestore
+---
 
-📸 Demo
-🎬 Watch Demo Video
-(https://drive.google.com/file/d/1-B6OuO2473AKNSJ6TjK6PGQHqlOQCzuZ/view?usp=sharing)
+## 📁 Folder Structure
 
-🧠 Future Enhancements
-✅ Firebase Authentication (Login/Signup)
-
-🛒 Persistent cart using Firestore
-
-🌐 Backend integration with real-time database or API
-
-🌍 Multilingual support
+```bash
+lib/
+├── models/
+│   └── product.dart
+├── providers/
+│   └── cart_provider.dart
+├── screens/
+│   ├── splash_screen.dart
+│   ├── product_detail_page.dart
+│   ├── cart_screen.dart
+│   └── my_profile_page.dart
+├── widgets/
+│   └── animated_slide_card.dart
+└── main.dart
